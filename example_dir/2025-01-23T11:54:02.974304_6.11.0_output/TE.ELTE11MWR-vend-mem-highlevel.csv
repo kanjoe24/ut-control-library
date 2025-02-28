@@ -1,0 +1,2 @@
+Timestamp,Build, Product, SOC, DDR size, Worstcase System Use, Static reserved, Vendor Baseline Memory, Vendor Dynamic usage on uhd_play,Vendor Dynamic Total, Avaialable Memory
+Jan 23 2025, ELTE11MWR_VENDOR_DEV_release_6.11.0_20250122211930, TE.ELTE11MWR.4.9.113, AMLOGIC, 2097152, UHD60FPS + FHD60FPS, 634096, 151908, 43964, 195872,1267184

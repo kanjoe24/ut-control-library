@@ -1,0 +1,4 @@
+DdrSize, MemTotal, CMATotal, Static_Reserved, MemAvailBoot, CmaAvailBoot, CmaBorrowedBoot, VendorBaseline, MemAvailOnCopy, CmaAvailOnCopy, CmaBorrowedOnCopy, MemAvailPlay, CmaAvailPlay, CmaBorroedOnPlay, VendDynamicUsageOnPlay, VendorDynamicTotal, VendorTotal, AvailMemory
+2097152, 2051856, 589824, 635120, 1403816, 138408, 0, 196624, 761584, 138016, 400, 731228, 81360, 39356, 12656,209280, , 1252752
+MemAvailBoot, MemAvailPeakBoot, MemAvailStdDevBoot, MemAvailCopy, MemAvailPeakCopy, MemAvailStdDevCopy, MemAvailPlay, MemAvailPeakPlay, MemAvailStdDevPlay
+1403816, 1404216, 140.068, 761584, , , 731228, , 
