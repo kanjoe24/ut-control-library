@@ -1,0 +1,12 @@
+name: Reviewer Manual Approval Only
+
+on:
+  pull_request:
+
+jobs:
+  reviewer_gate:
+    runs-on: ubuntu-latest
+    environment: reviewer-approval
+    steps:
+      - name: Await Manual Approval
+        run: echo "This job only waits for manual approval from reviewer."
