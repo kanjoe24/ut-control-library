@@ -1,0 +1,16 @@
+name: Run Tests with Reviewer Approval
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    environment: reviewer-approval     # 👈 Step 2 depends on this name
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Tests
+        run: |
+          echo "Running your test suite..."
+          # put your real test command here
