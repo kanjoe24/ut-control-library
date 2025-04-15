@@ -1,16 +1,12 @@
-name: Run Tests with Reviewer Approval
+name: Reviewer Manual Approval Only
 
 on:
   pull_request:
 
 jobs:
-  test:
+  reviewer_gate:
     runs-on: ubuntu-latest
-    environment: reviewer-approval     # 👈 Step 2 depends on this name
+    environment: reviewer-approval
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Run Tests
-        run: |
-          echo "Running your test suite..."
-          # put your real test command here
+      - name: Await Manual Approval
+        run: echo "This job only waits for manual approval from reviewer."
